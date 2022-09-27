@@ -14,14 +14,12 @@ import ReactDOM from 'react-dom/client';
 // import NomeQualquer, {Alerta2} from './components/Alerta' // aqui ele pega o default e o outro
 import {Alerta2, Curso} from './components'
 
-
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/*componente funcional -> aparece o que foi colocado na function*/}
     <Alerta2/>
-    <Curso/>
+    <Curso turmas={['1º INFO', '2º INFO', '3º INFO']} nome="Técnico em Informática para a Internet"/> {/*passa esse atributo para a função criada no Curso.js*/}
+    <Curso turmas={[]} nome=":( Técnico em Agropecuária :("/>
   </React.StrictMode>
 );
