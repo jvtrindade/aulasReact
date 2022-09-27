@@ -1,6 +1,6 @@
 import React from 'react'
 
-export {Turmas} from './Turmas'
+import {Turmas} from './Turmas'
 
 // const pessoa = {nome: 'João', idade: 17}
 // const {nome: nomeCompleto, idade} = pessoa // faz a mesma coisa que: const nome = pessoa.nome; const idade = pessoa.idade. A ORDEM NÃO IMPORTA, MAS PRECISA USAR O MESMO NOME. O primeiro caso tá renomeando
